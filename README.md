@@ -1,20 +1,21 @@
 # Python-Scraping-Assignment
 
-### To complete this scraping task modules which i used are-
+### 1. To complete this scraping task modules which i used are-
 
-### -BeautifulSoup from bs4(For Parsing the data)
+### -BeautifulSoup from bs4 (For Parsing the data)
 
-### -requests(For fetching the data)
+### -requests (For fetching the data)
 
-### -pandas(For saving data to csv file)
+### -pandas (For saving data to csv file)
 
-### -termcolor(Optional)
+### -termcolor (Optional)
 
 
-### To install BeautifulSoup from command line type 
+### 2. To install BeautifulSoup from command line type 
 
 ### -pip install bs4
-### To install requests from command line type 
+
+### 3. To install requests from command line type 
 
 ### -pip install requests
 
