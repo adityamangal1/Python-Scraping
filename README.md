@@ -6,7 +6,7 @@
 
 ### -BeautifulSoup from bs4 (For Parsing the data)
 
-### -requests (For fetching the data)
+### -requests (For fetching the data from URL)
 
 ### -pandas (For saving data to csv file)
 
