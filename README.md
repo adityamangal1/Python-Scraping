@@ -2,13 +2,13 @@
 
 ### To complete this scraping task modules which i used are-
 
-### BeautifulSoup from bs4
+### -BeautifulSoup from bs4
 
-### requests
+### -requests
 
-### pandas
+### -pandas
 
-### termcolor
+### -termcolor
 
 
 ### To install BeautifulSoup from command line type 
