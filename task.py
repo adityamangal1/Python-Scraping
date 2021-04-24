@@ -16,6 +16,7 @@ from time import sleep
 with open("data.txt", 'rt') as file:
     title_list = []
     availability_list = []
+    url_list = []
     try:
         cprint('Fetching the URL from file...', 'yellow')
         sleep(2)
@@ -29,6 +30,7 @@ with open("data.txt", 'rt') as file:
                 url = a[i][:-1]
             else:
                 url = a[i]
+            url_list.append(url)
             data = requests.get(url).text
             html = BeautifulSoup(data, "html.parser")
             title = html.find('title')
@@ -62,12 +64,14 @@ with open('output.txt', 'a') as file:
             file.writelines(title_list[i])
             file.writelines(' ,')
             file.writelines(availability_list[i])
+            file.writelines(' ,')
+            file.writelines(url_list[i])
             file.write('\n')
     except:
         cprint("Some error occured.", 'yellow')
 cprint("Saving Data to output.csv.", 'yellow')
 sleep(2)
 dataframe1 = pd.read_csv("output.txt", header=None)
-dataframe1.columns = ['S.No', 'Products from given URL', 'Stock Status']
+dataframe1.columns = ['S.No', 'Products from given URL', 'Stock Status','Hyperlink']
 dataframe1.to_csv('output.csv', index=None)
 cprint("Saved Succesfully.", 'yellow')
