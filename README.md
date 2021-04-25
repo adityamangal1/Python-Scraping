@@ -1,19 +1,24 @@
 # Python-Scraping-Assignment
 
-### To complete this scraping task modules which i used are-
+![1_CxVccbFGtv6W2qlq0A4hxw](https://user-images.githubusercontent.com/68494604/115964366-cb779080-a541-11eb-99de-53305572a892.png)
 
-### BeautifulSoup from bs4
+### 1. To complete this scraping task modules which I used are-
 
-### requests
+### -BeautifulSoup from bs4 (For Parsing the data)
 
-### pandas
+### -requests (For fetching the data from URL)
 
-### termcolor
+### -pandas (For saving data to csv file)
+
+### -termcolor (Optional)
 
 
-### To install BeautifulSoup from command line type 
+### 2. To install BeautifulSoup from command line type 
 
-### -pip install bs4.
-### To install requests from command line type 
+### -pip install bs4
 
-### -pip install requests.
+### 3. To install requests from command line type 
+
+### -pip install requests
+
+![source](https://user-images.githubusercontent.com/68494604/94645884-950ac780-030a-11eb-9c8f-40d9740fc6ad.gif)
