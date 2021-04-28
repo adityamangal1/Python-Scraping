@@ -12,7 +12,6 @@
 
 ### -termcolor (Optional)
 
-
 ### 2. To install BeautifulSoup from command line type 
 
 ### -pip install bs4
