@@ -1,4 +1,4 @@
-# Python-Scraping-task
+# Python-Scraping
 
 ![1_CxVccbFGtv6W2qlq0A4hxw](https://user-images.githubusercontent.com/68494604/115964366-cb779080-a541-11eb-99de-53305572a892.png)
 
